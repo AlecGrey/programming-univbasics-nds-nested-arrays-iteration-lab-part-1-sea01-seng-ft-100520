@@ -3,8 +3,6 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   
-  even_array = []
-  
   src.each do |arr|
     arr.each do |int|
       if int.even?
