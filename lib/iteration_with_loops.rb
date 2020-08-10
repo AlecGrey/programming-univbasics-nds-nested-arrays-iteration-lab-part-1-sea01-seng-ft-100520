@@ -5,6 +5,8 @@ def find_even_values(src)
   
   new_array = []
   
-  
+  src.each do |arr|
+    arr.each do |int|
+      
 
 end
