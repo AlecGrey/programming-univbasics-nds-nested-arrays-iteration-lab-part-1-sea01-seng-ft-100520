@@ -12,7 +12,3 @@ def find_even_values(src)
   end
   return
 end
-
-a_o_a = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
-
-puts find_even_values(a_o_a)
