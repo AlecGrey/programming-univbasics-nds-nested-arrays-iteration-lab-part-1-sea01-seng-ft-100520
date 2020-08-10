@@ -8,12 +8,10 @@ def find_even_values(src)
   src.each do |arr|
     arr.each do |int|
       if int.even?
-        even_array << int
+        puts int
       end
     end
   end
-  
-  even_array
 
 end
 
